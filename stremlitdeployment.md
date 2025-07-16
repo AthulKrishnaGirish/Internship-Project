@@ -3,7 +3,7 @@ import yfinance as yf
 from prophet import Prophet
 import matplotlib.pyplot as plt
 
-st.title("📈 Stock Forecasting App (Prophet Model)")
+st.title(" Stock Forecasting App (Prophet Model)")
 
 ticker = st.text_input("Enter Stock Ticker", "AAPL")
 if st.button("Forecast"):
